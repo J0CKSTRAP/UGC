@@ -1,8 +1,8 @@
 local Ugc = {
-    GetServ = newcclosure(function(self, ServiceName)
+    GetService = newcclosure(function(self, ServiceName)
           return cloneref(game:GetService(ServiceName))
     end),
-    FindServ = newcclosure(function(self, ServiceName)
+    FindService = newcclosure(function(self, ServiceName)
           return cloneref(game:GetService(ServiceName))
     end),
     FindFirstChild = newcclosure(function(self, ServiceName)
