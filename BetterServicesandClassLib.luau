@@ -12,3 +12,4 @@ local Ugc = {
           return cloneref(game:FindFirstChildOfClass(ServiceName))
     end),
 }
+return Ugc
